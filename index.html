@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thư viện âm nhạc</title>
+    <!-- <link rel="stylesheet" href="./src/CSS/style.css"> -->
+    <link rel="stylesheet" href="./src/CSS/admin.css">
+    <link rel="icon" type="image/png" href="./image/favicon.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            databaseURL: "https://projextii-mindx.firebaseio.com",
+            apiKey: "AIzaSyBYInEnLzpiDdslnkVLj11XlaoZ-_rEIf0",
+            authDomain: "projextii-mindx.firebaseapp.com",
+            projectId: "projextii-mindx",
+            storageBucket: "projextii-mindx.appspot.com",
+            messagingSenderId: "510447809468",
+            appId: "1:510447809468:web:989d5ab6c59e99d15431b9"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <!--Sha1 lib-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/hmac.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/sha1.js"></script>
+
+    <!--Router lib-->
+    <script src="//unpkg.com/navigo@6"></script>
+</head>
+
+<body id="body">
+    <div id="app">
+    </div>
+    <script src="./src/index.js" type="module"></script>
+</body>
+
+</html>

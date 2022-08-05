@@ -1,0 +1,325 @@
+/*Admin Page*/
+
+#menu-admin-page {
+    width: 18%;
+    height: 800px;
+    background-color: rgba(129, 201, 211, 0.05);
+    color: #0a7d9a;
+    box-shadow: 1px 0px 3px 0px rgba(129, 201, 211, 0.3);
+    border-color: rgba(129, 201, 211, 0.05);
+}
+
+.menu-admin-text {
+    font-size: 15px;
+    background: rgba(129, 201, 211, 0.05);;
+    padding: 15px 0px 15px 45px;
+}
+
+.menu-admin-text:hover {
+    cursor: pointer;
+    background-color: rgba(17, 110, 122, 0.05);
+    color: #67bcd1;
+}
+
+/*Form*/
+
+#form-add {
+    width: 80%;
+}
+
+#form-add input {
+    height: 30px;
+    border: 1px solid rgb(167, 166, 166, 0.5);
+    border-radius: 10px;
+    outline: unset;
+    padding-left: 10px;
+    color: #004a6d;
+}
+
+.form-left {
+    width: 50%;
+}
+
+.form-left form {
+    margin-top: 45px;
+}
+
+.form-left label {
+    min-width: 150px;
+}
+
+
+.form-right {
+    width: 50%;
+}
+
+#form-add input:hover {
+    border-color: #6bbce2;
+}
+
+.half-input {
+    min-width: 240px;
+}
+
+.long-input {
+    min-width: 480px;
+}
+
+#form-add textarea {
+    height: 120px;
+    border: 1px solid rgb(167, 166, 166, 0.5);
+    border-radius: 10px;
+    outline: unset;
+    padding-left: 10px;
+    color: #004a6d;
+    margin: -25px 0px 0px 165px;
+}
+
+#form-add label {
+    min-width: 150px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.form-right label {
+    min-width: 80px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.form-result {
+    margin-bottom: 10px;
+}
+
+.form-process {
+    padding-left: 150px;
+}
+
+.button {
+    width: 70px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.form-clear {
+    background: rgb(59, 59, 182);
+}
+
+.form-clear:hover {
+    background: rgb(2, 2, 145);
+}
+
+.form-add {
+    background: rgb(23, 180, 23);
+}
+
+.form-add:hover {
+    background: rgb(1, 102, 1);
+}
+
+.form-update {
+    background: rgba(221, 173, 41, 0.938);
+}
+
+.form-update:hover {
+    background: rgb(202, 216, 11);
+}
+
+/*Admin content*/
+
+.admin-content {
+    width: 82%;
+    margin: 0px 0px 0px 18%;
+    padding: 50px;
+    background-image: linear-gradient(#00a1ff26, #cbe07930);
+    color: #005469;
+}
+
+.admin-name {
+    text-align: center;
+    font-size: 24px;
+    margin: 0px 0px 30px 0px;
+}
+
+.admin-list {
+    padding: 40px 40px 30px 100px;
+}
+
+table span {
+    font-size: 14px;
+    font-style: italic;
+}
+
+table,td,th {  
+    border: 1px solid #889092;
+    text-align: center;
+}
+
+td, th {
+    border-width: 1px !important;
+    height: 50px;
+}   
+  
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 30px;
+}
+
+.button-func {
+    width: 75px;
+    height: 30px;
+}
+
+.form-delete {
+    background: rgb(224, 80, 61);
+}   
+
+.form-delete:hover {
+    background: rgb(211, 47, 25);
+}   
+
+.button-delete {
+    width: auto;
+    background: rgb(224, 80, 61);
+}
+
+.button-delete:hover {
+    background: rgb(211, 47, 25);
+}   
+
+/*Admin button change*/
+
+.admin-change {
+    display: flex;
+    justify-content: center;
+    color: #005469;
+    text-align: center;
+}
+
+.button-change {
+    background: rgb(163, 163, 163);
+}
+
+.admin-count-page {
+    font-size: 18px;
+    margin: 0px 10px;
+}
+
+/* Admin Music*/
+
+#search-music-admin {
+    outline: unset;
+    width: 420px;
+    height: 30px;
+    border-radius: 40px;
+    padding: 0px 20px 0px 20px;
+    margin: 0px 20px 0px 10px;
+    border: 1px solid rgb(167, 166, 166, 0.5);
+    border-radius: 10px;
+    padding-left: 10px;
+    color: #004a6d;
+}
+
+#filter-music-admin {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: #005469;
+    text-align: center;
+    outline: unset;
+    border: 1px solid rgb(167, 166, 166, 0.5);
+}
+
+#search-user-admin {
+    outline: unset;
+    width: 420px;
+    height: 30px;
+    border-radius: 40px;
+    padding: 0px 20px 0px 20px;
+    margin: 0px 20px 0px 10px;
+    border: 1px solid rgb(167, 166, 166, 0.5);
+    border-radius: 10px;
+    padding-left: 10px;
+    color: #004a6d;
+}
+
+.view {
+    height: 150px;
+    border: 1px solid rgb(167, 166, 166, 0.5);
+    border-radius: 10px;
+    outline: unset;
+    padding-left: 10px;
+    color: #004a6d;
+}
+
+.form-view {
+    margin: 0px 0px 0px 130px;
+}
+
+/*Col width*/
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+/*Scroll Css*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: azure;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(103 166 175 / 94%); 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+
+/* Add user*/
+
+
+#add-user {
+    display: flex;
+    flex-direction:row;
+}
+
+.input-add-user {
+    width: 240px;
+    height: 30px;
+    border: 1px solid rgb(167, 166, 166, 0.5);
+    border-radius: 10px;
+    outline: unset;
+    padding-left: 10px;
+    color: #004a6d;
+    margin: 0px 10px 0px 10px;
+}
+
+.but-add-user {
+    margin: 10px 0px 20px 0px;
+}
